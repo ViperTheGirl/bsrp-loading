@@ -1,0 +1,406 @@
+/* Made by Nss with Love 💓 */
+
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Raleway:wght@200&display=swap');
+
+* {
+    margin: 0; padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-image: url("https://w.wallhaven.cc/full/9m/wallhaven-9mel2k.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.servername {
+    position: absolute;
+    left: 27rem;
+    top: 10rem;
+    color: white;
+    opacity: 0.8;
+}
+
+.servername h1 {
+    margin-left: -0.6rem;
+    padding-top: 70px;
+}
+
+.servername p {
+    position: absolute;
+    width: 200%;
+    left: -1.8rem;
+    color: gray;
+}
+
+.mainborder {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.8;
+    position: relative;
+    margin: auto;
+    background-color: lightgrey;
+    max-width: 56%;
+    top: 8rem;
+    left: -1rem;
+    border-radius: 1.7rem;
+    padding: 380px 30px;
+    background: linear-gradient(-45deg, #0e0101, #451313, #4f25b1, #3d1345);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+.verticaline { 
+    border-left: 1px solid gray;
+    opacity: 0.4;
+    min-height: 760px;
+    position: fixed;
+    margin-left: 39.5rem;
+    margin-top: -39.5rem;
+}
+
+.staff {
+    position: relative;
+    margin-left: 29.6rem;
+    margin-top: -32rem;
+    font-size: 30px;
+    font-weight: 100;
+    color: white;
+    opacity: 0.8;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 1px solid gray;
+    width: 3%;
+}
+
+.discord {
+    position: relative;
+    margin-left: 28.5rem;
+    margin-top: 3.5rem;
+    font-size: 30px;
+    font-weight: 100;
+    color: white;
+    opacity: 0.8;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 1px solid gray;
+    width: 5.4%;
+}
+
+.duty {
+    font-size: 18px;
+    position: relative;
+    margin-left: 30.3rem;
+    margin-top: -3vh;
+    padding-bottom: 12px;
+    color: white;
+    opacity: 0.8;
+}
+
+.name {
+    font-size: 13px;
+    position: relative;
+    margin-left: 30.8rem;
+    margin-top: -1.1vh;
+    color: gray;
+}
+
+.joinus {
+    font-size: 18px;
+    position: relative;
+    margin-left: 30.3rem;
+    margin-top: -3vh;
+    padding-bottom: 12px;
+    color: white;
+    opacity: 0.8;
+}
+
+.joinus2 {
+    font-size: 12px;
+    position: relative;
+    margin-left: 30.7rem;
+    margin-top: -1.1vh;
+    color: coral;
+    opacity: 0.8;
+}
+
+.profile {
+    width: 50px;
+    height: 50px;
+    top: 0.9rem;
+    left: 26rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+    0 2px 4px rgba(0,0,0,0.07), 
+    0 4px 8px rgba(0,0,0,0.07), 
+    0 8px 16px rgba(0,0,0,0.07),
+    0 16px 32px rgba(0,0,0,0.07), 
+    0 32px 64px rgba(0,0,0,0.07);
+}
+
+.discordprofile {
+    width: 50px;
+    height: 50px;
+    top: 0.8rem;
+    left: 26rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+    0 2px 4px rgba(0,0,0,0.07), 
+    0 4px 8px rgba(0,0,0,0.07), 
+    0 8px 16px rgba(0,0,0,0.07),
+    0 16px 32px rgba(0,0,0,0.07), 
+    0 32px 64px rgba(0,0,0,0.07);
+}
+
+.servericon {
+    width: 50px;
+    height: 50px;
+    top: 0.1rem;
+    left: 2.9rem;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+    0 2px 4px rgba(0,0,0,0.07), 
+    0 4px 8px rgba(0,0,0,0.07), 
+    0 8px 16px rgba(0,0,0,0.07),
+    0 16px 32px rgba(0,0,0,0.07), 
+    0 32px 64px rgba(0,0,0,0.07);
+}
+
+  
+img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+.musicplayer {
+    position: relative;
+    left: 25.8rem;
+    top: -2rem;
+    max-width: 10%;
+}
+
+.moveEverything {
+    padding-top: 5rem;
+}
+
+.ruleborder {
+    position: absolute;
+    width: 15%;
+    left: 82rem;
+    top: 10rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+    opacity: 0.7;
+    background-color: lightgrey;
+    border-radius: 2rem;
+    padding: 100px 0;
+    transform: rotate(0deg);
+}
+
+.ruleborder h1 {
+    position: absolute;
+    left: 7.8rem;
+    top: 1rem;
+    font-size: 22px;
+    border-bottom: 1px solid gray;
+}
+
+.ruleborder p {
+    position: absolute;
+    left: 1.2rem;
+    top: 4rem;
+    color: gray;
+}
+
+.ruleborder2 {
+    position: absolute;
+    width: 15%;
+    left: 62rem;
+    top: 10rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+    opacity: 0.7;
+    background-color: lightgrey;
+    border-radius: 1.7rem;
+    padding: 100px 0;
+    transform: rotate(0deg);
+}
+
+.ruleborder2 h1 {
+    position: absolute;
+    left: 7.4rem;
+    top: 1rem;
+    font-size: 22px;
+    border-bottom: 1px solid gray;
+}
+
+.ruleborder2 ul {
+    position: absolute;
+    top: 4rem;
+    left: 1.2rem;
+    list-style-type: none;
+    color: gray;
+}
+
+.ruleborder3 {
+    position: absolute;
+    width: 15%;
+    left: 42rem;
+    top: 10rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+    opacity: 0.7;
+    background-color: lightgrey;
+    border-radius: 1.7rem;
+    padding: 100px 0;
+    transform: rotate(0deg);
+}
+
+.ruleborder3 h1 {
+    position: absolute;
+    left: 5.5rem;
+    top: 1rem;
+    font-size: 22px;
+    border-bottom: 1px solid gray;
+}
+
+.ruleborder3 p {
+    position: absolute;
+    left: 1.2rem;
+    top: 4rem;
+    color: gray;
+}
+
+.loading {
+    position: absolute;
+    left: 82rem;
+    top: 52rem;
+    color: white;
+    opacity: 0.7;
+    font: 100;
+}
+
+.dotanim {
+    opacity: 0.7;
+    position: absolute;
+    left: 8.3rem;
+    top: 1.5rem;
+}
+.dot-falling {
+    position: relative;
+    left: -9999px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: white;
+    color: white;
+    box-shadow: 9999px 0 0 0 white;
+    animation: dotFalling 1s infinite linear;
+    animation-delay: .1s;
+  }
+  
+  .dot-falling::before, .dot-falling::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+  }
+  
+  .dot-falling::before {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: white;
+    color: white;
+    animation: dotFallingBefore 1s infinite linear;
+    animation-delay: 0s;
+  }
+  
+  .dot-falling::after {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: white;
+    color: white;
+    animation: dotFallingAfter 1s infinite linear;
+    animation-delay: .2s;
+  }
+  
+  @keyframes dotFalling {
+    0% {
+      box-shadow: 9999px -15px 0 0 rgba(152, 128, 255, 0);
+    }
+    25%,
+    50%,
+    75% {
+      box-shadow: 9999px 0 0 0 white;
+    }
+    100% {
+      box-shadow: 9999px 15px 0 0 rgba(152, 128, 255, 0);
+    }
+  }
+  
+  @keyframes dotFallingBefore {
+    0% {
+      box-shadow: 9984px -15px 0 0 rgba(152, 128, 255, 0);
+    }
+    25%,
+    50%,
+    75% {
+      box-shadow: 9984px 0 0 0 white;
+    }
+    100% {
+      box-shadow: 9984px 15px 0 0 rgba(152, 128, 255, 0);
+    }
+  }
+  
+  @keyframes dotFallingAfter {
+    0% {
+      box-shadow: 10014px -15px 0 0 rgba(152, 128, 255, 0);
+    }
+    25%,
+    50%,
+    75% {
+      box-shadow: 10014px 0 0 0 white;
+    }
+    100% {
+      box-shadow: 10014px 15px 0 0 rgba(152, 128, 255, 0);
+    }
+  }
+
+.youtube {
+    position: absolute;
+    top: 29.5rem;
+    left: 45rem;
+    width: 35%;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+    /* border-radius: 10px; */
+}
+
+.aboveyoutube h1 {
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    top: 26rem;
+    left: 53rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+/* Made by Nss with Love 💓 */
